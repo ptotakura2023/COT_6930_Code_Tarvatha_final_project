@@ -37,8 +37,10 @@ owlmind/ │ ├── agents.py # Specialized Agent Definitions ├── bot-1
 ## ⚡ Setup Instructions
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/StudyPal-Discord-Bot.git
-   cd StudyPal-Discord-Bot
+   #Clone the repository
+   git clone https://github.com/ptotakura2023/COT_6930_Code_Tarvatha_final_project.git
+   # Navigate into the project directory
+   cd COT_6930_Code_Tarvatha_final_project
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
