@@ -16,3 +16,34 @@ Built using **LangChain**, **OpenAI LLMs**, and **Discord Bot APIs**, StudyPal d
 
 ## 🏗️ Architecture
 Student → Discord Bot → AgentOrchestrator → Specialized Agent → OpenAI Model → Response → Student
+
+- **Discord Bot** captures user messages.
+- **AgentOrchestrator** classifies and routes queries.
+- **DoubtSolverAgent / CodeReviewAgent / StudyPlannerAgent** processes based on category.
+- **OpenAI API** provides intelligent completions.
+
+## 🔧 Technologies Used
+- **Python 3.10+**
+- **LangChain**
+- **OpenAI API (gpt-4-turbo-preview)**
+- **Discord.py**
+- **LangChain-Community Components**
+- **Dotenv for Secure API Management**
+
+## 📂 Project Structure
+owlmind/ │ ├── agents.py # Specialized Agent Definitions ├── bot-1.py # Discord Bot Implementation ├── orchestrator.py # AgentOrchestrator Class ├── test_agents.py # Simple Interactive Test Script ├── .env # Environment Variables (OpenAI API Key, Bot Token) ├── requirements.txt # Python Requirements └── README.md # Project Documentation (this file)
+
+
+## ⚡ Setup Instructions
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/StudyPal-Discord-Bot.git
+   cd StudyPal-Discord-Bot
+2. **Install dependencies:**
+   pip install -r requirements.txt
+3.**Configure your environment variables:**
+   Create a .env file:
+   OPENAI_API_KEY=your-openai-api-key
+   DISCORD_BOT_TOKEN=your-discord-bot-token
+   OPENAI_MODEL=gpt-4-turbo-preview
+
