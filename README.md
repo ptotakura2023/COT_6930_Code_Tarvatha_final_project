@@ -48,4 +48,44 @@ owlmind/ │ ├── agents.py # Specialized Agent Definitions ├── bot-1
    OPENAI_API_KEY=your-openai-api-key
    DISCORD_BOT_TOKEN=your-discord-bot-token
    OPENAI_MODEL=gpt-4-turbo-preview
+4. **Run the bot:**
+    ```bash
+   python bot-1.py
+5. **(Optional) Test Agents Locally:**
+   ```bash
+   python test_agents.py
 
+🎯 Example Interactions
+User: "Explain recursion."
+
+StudyPal: Provides a clear, step-by-step explanation with examples.
+
+User: "My Python function has a list index out of range error."
+
+StudyPal: Diagnoses the issue and suggests code fixes.
+
+User: "Help me build a study plan for exams."
+
+StudyPal: Suggests time management techniques and daily goals.
+
+⚙️ Configurations
+LLM Parameters:
+
+Temperature: 0.7 (creative but controlled)
+
+Top_p: 0.9
+
+Max Tokens: 2048
+
+System Prompts designed for specific agent roles.
+
+🧠 Future Enhancements
+ Integrate RAG (Retrieval Augmented Generation) for better knowledge grounding.
+
+ Add memory-based contextual conversations.
+
+ Multi-turn conversation flow improvements.
+
+🤝 Contributing
+Feel free to fork this project and propose improvements!
+Bug fixes and feature suggestions are welcome 🚀
