@@ -55,37 +55,45 @@ owlmind/ │ ├── agents.py # Specialized Agent Definitions ├── bot-1
    ```bash
    python test_agents.py
 
-🎯 Example Interactions
-User: "Explain recursion."
+## 🎯 Example Interactions
+- **User:** "Explain recursion."
+- **StudyPal:** Provides a clear, step-by-step explanation with examples.
 
-StudyPal: Provides a clear, step-by-step explanation with examples.
+- **User:** "My Python function has a list index out of range error."
+- **StudyPal:** Diagnoses the issue and suggests code fixes.
 
-User: "My Python function has a list index out of range error."
+- **User:** "Help me build a study plan for exams."
+- **StudyPal:** Suggests time management techniques and daily goals.
 
-StudyPal: Diagnoses the issue and suggests code fixes.
+---
 
-User: "Help me build a study plan for exams."
+## ⚙️ Configurations
+**LLM Parameters:**
+- **Temperature:** 0.7 (creative but controlled)
+- **Top_p:** 0.9
+- **Max Tokens:** 2048
 
-StudyPal: Suggests time management techniques and daily goals.
+**System Prompts:**  
+Custom designed for each specialized agent role (Doubt Solver, Code Reviewer, Study Planner) to ensure optimal and context-specific responses.
 
-⚙️ Configurations
-LLM Parameters:
+---
 
-Temperature: 0.7 (creative but controlled)
+## 🧠 Future Enhancements
+- [ ] Integrate **RAG** (Retrieval Augmented Generation) for improved knowledge retrieval.
+- [ ] Add **memory-based contextual conversations** for multi-turn engagement.
+- [ ] Enhance **multi-turn dialogue flow** and conversation tracking.
 
-Top_p: 0.9
+---
 
-Max Tokens: 2048
+## 🤝 Contributing
+Feel free to fork this project and propose improvements!  
+Bug fixes, suggestions, and new ideas are always welcome. 🚀
 
-System Prompts designed for specific agent roles.
+If you'd like to contribute:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-xyz`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-xyz`).
+5. Open a pull request!
 
-🧠 Future Enhancements
- Integrate RAG (Retrieval Augmented Generation) for better knowledge grounding.
-
- Add memory-based contextual conversations.
-
- Multi-turn conversation flow improvements.
-
-🤝 Contributing
-Feel free to fork this project and propose improvements!
-Bug fixes and feature suggestions are welcome 🚀
+Let's build something amazing together! 💬
