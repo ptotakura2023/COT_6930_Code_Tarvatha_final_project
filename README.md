@@ -44,7 +44,7 @@ owlmind/ │ ├── agents.py # Specialized Agent Definitions ├── bot-1
    pip install -r requirements.txt
 3.**Configure your environment variables:**
    Create a .env file:
-   ```bash
+    ```bash
    OPENAI_API_KEY=your-openai-api-key
    DISCORD_BOT_TOKEN=your-discord-bot-token
    OPENAI_MODEL=gpt-4-turbo-preview
