@@ -90,9 +90,11 @@ Custom designed for each specialized agent role (Doubt Solver, Code Reviewer, St
 ---
 
 ## 🧠 Future Enhancements
-- [ ] Integrate **RAG** (Retrieval Augmented Generation) for improved knowledge retrieval.
-- [ ] Add **memory-based contextual conversations** for multi-turn engagement.
-- [ ] Enhance **multi-turn dialogue flow** and conversation tracking.
+
+- Further enhance the Retrieval Augmented Generation (RAG) mechanisms for even deeper knowledge retrieval and grounding.
+- Expand memory-based contextual conversations to support longer, multi-turn user sessions.
+- Refine multi-turn dialogue flows and optimize conversation history tracking for personalized user experience.
+
 
 ---
 
