@@ -37,7 +37,7 @@ owlmind/ │ ├── agents.py # Specialized Agent Definitions ├── bot-1
 ## ⚡ Setup Instructions
 1. **Clone the repository:**
    ```bash
-   #Clone the repository
+   # Clone the repository
    git clone https://github.com/ptotakura2023/COT_6930_Code_Tarvatha_final_project.git
    # Navigate into the project directory
    cd COT_6930_Code_Tarvatha_final_project
