@@ -30,8 +30,17 @@ Student → Discord Bot → AgentOrchestrator → Specialized Agent → OpenAI M
 - **LangChain-Community Components**
 - **Dotenv for Secure API Management**
 
-## 📂 Project Structure
-owlmind/ │ ├── agents.py # Specialized Agent Definitions ├── bot-1.py # Discord Bot Implementation ├── orchestrator.py # AgentOrchestrator Class ├── test_agents.py # Simple Interactive Test Script ├── .env # Environment Variables (OpenAI API Key, Bot Token) ├── requirements.txt # Python Requirements └── README.md # Project Documentation (this file)
+## 📁 Project Structure
+
+```bash
+owlmind/
+├── agents.py          # Specialized Agent Definitions (DoubtSolver, CodeReview, StudyPlanner)
+├── bot-1.py           # Discord Bot Implementation (Handles incoming user messages)
+├── orchestrator.py    # AgentOrchestrator Class (Routes questions to the correct agent)
+├── test_agents.py     # Simple Interactive CLI Tester for Agents
+├── .env               # Environment Variables (OpenAI API Key, Discord Bot Token)
+├── requirements.txt   # Python Dependencies List
+└── README.md          # Project Documentation (this file)
 
 
 ## ⚡ Setup Instructions
