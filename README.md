@@ -41,7 +41,7 @@ owlmind/
 ├── .env               # Environment Variables (OpenAI API Key, Discord Bot Token)
 ├── requirements.txt   # Python Dependencies List
 └── README.md          # Project Documentation (this file)
-
+```
 
 ## ⚡ Setup Instructions
 1. **Clone the repository:**
