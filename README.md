@@ -40,9 +40,11 @@ owlmind/ │ ├── agents.py # Specialized Agent Definitions ├── bot-1
    git clone https://github.com/yourusername/StudyPal-Discord-Bot.git
    cd StudyPal-Discord-Bot
 2. **Install dependencies:**
+   ```bash
    pip install -r requirements.txt
 3.**Configure your environment variables:**
    Create a .env file:
+   ```bash
    OPENAI_API_KEY=your-openai-api-key
    DISCORD_BOT_TOKEN=your-discord-bot-token
    OPENAI_MODEL=gpt-4-turbo-preview
